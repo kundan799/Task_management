@@ -11,7 +11,6 @@ import { Box, Button, Pagination } from "@mui/material";
 
 import Searchitem from "../Search/SearchItem";
 import Sort from "../Sorting/Sort";
-import ProjectlistMobile from "../Projectlist/ProjectlistMobile";
 
 const TableData = () => {
   const [data, setData] = useState([]);

@@ -49,7 +49,7 @@ const Sort = ({ data, setData }) => {
         display: "flex",
         justifyContent: "space-evenly",
         alignItems: "center",
-        border: "1px solid orange",
+    
       }}
     >
       <Typography>Sort By</Typography>

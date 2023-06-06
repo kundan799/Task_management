@@ -6,7 +6,7 @@ import {
   LinearScale,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { Container, Typography, Grid } from "@material-ui/core";
+import { Container, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 ChartJS.register(BarElement, CategoryScale, LinearScale);

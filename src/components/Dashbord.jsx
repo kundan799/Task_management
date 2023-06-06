@@ -1,10 +1,4 @@
-import {
-  Box,
-  Typography,
-  Card,
-  CardContent,
-  useMediaQuery,
-} from "@mui/material";
+import { Box, Typography, useMediaQuery } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import Headerbg from "../assest/Header-bg.svg";
 import logo from "../assest/Logo.svg";
@@ -19,27 +13,7 @@ import logout from "../assest/Logout.svg";
 import Dcard from "./Card/Dcard";
 import { Scrollbars } from "react-custom-scrollbars";
 
-import styled from "@emotion/styled";
-
 const Dashbord = () => {
-  const CustomScrollbar = styled(Box)`
-    overflow-x: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: gray transparent;
-
-    &::-webkit-scrollbar {
-      width: 8px;
-    }
-
-    &::-webkit-scrollbar-track {
-      background-color: transparent;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background-color: gray;
-      border-radius: 4px;
-    }
-  `;
   const theme = useTheme();
   const navigate = useNavigate();
   //logout

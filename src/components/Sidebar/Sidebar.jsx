@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Box, Typography, Grid } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import dashbord from "../../assest/Dashboard.svg";
 import createproject from "../../assest/create-project.svg";
 import projectlist from "../../assest/Project-list-active.svg";

@@ -2,9 +2,9 @@ import React from "react";
 import {
   Box,
   Typography,
-  Grid,
+
   useMediaQuery,
-  makeStyles,
+
 } from "@mui/material";
 import Headerbg from "../assest/Header-bg.svg";
 import logo from "../assest/Logo.svg";
@@ -26,7 +26,7 @@ const CreateProject = () => {
 
   const boxStyle = {
     width: isMobile ? "100%" : "95%",
-    height: isMobile ? "auto" : "100vh", // Adjust the height value as per your requirements
+    height: isMobile ? "auto" : "100vh", 
   };
   const height = isMobile ? "1200px" : "auto";
 

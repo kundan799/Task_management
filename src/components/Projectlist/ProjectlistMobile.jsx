@@ -15,7 +15,7 @@ import Headerbg from "../../assest/Header-bg.svg";
 import logout from "../../assest/Logout.svg";
 import { useNavigate } from "react-router-dom";
 import Searchitem from "../Search/SearchItem";
-import { Sort } from "@mui/icons-material";
+
 import axios from "axios";
 import SideMobile from "../Sidebar/SideMobile";
 
